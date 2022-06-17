@@ -41,7 +41,7 @@
 #define WHO_AM_I_REG 0x75
 #define PWR_MGMT_1_REG 0x6B
 #define SMPLRT_DIV_REG 0x19
-
+//someshit
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -153,7 +153,7 @@ float Az;
 	  //setting power to 1
 
 
-
+		int ghj = 0;
 
 		HAL_I2C_Mem_Read(&hi2c3, MPU6050_ADDR, GYRO_XOUT_H_REG, 1, Rec_Data, 6, 1000);
 
